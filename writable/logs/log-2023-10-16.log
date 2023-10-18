@@ -1,0 +1,586 @@
+ERROR - 2023-10-16 08:51:50 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'monitoring_maha...', 3306, '', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(18): CodeIgniter\BaseModel->findAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-10-16 08:51:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Skripsi.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 08:51:54 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'monitoring_maha...', 3306, '', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(18): CodeIgniter\BaseModel->findAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-10-16 08:51:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Skripsi.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 09:35:16 --> syntax error, unexpected identifier "dd"
+in APPPATH\Controllers\Skripsi.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\programmer\\ciempatmonitoring\\app\\Controllers\\Skripsi.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Skripsi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Skripsi')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Skripsi', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 09:35:19 --> syntax error, unexpected identifier "dd"
+in APPPATH\Controllers\Skripsi.php on line 38.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\programmer\\ciempatmonitoring\\app\\Controllers\\Skripsi.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Skripsi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Skripsi')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Skripsi', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 09:35:28 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Skripsi.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\programmer\\ciempatmonitoring\\app\\Controllers\\Skripsi.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Skripsi')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Skripsi')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Skripsi', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 09:44:44 --> mysqli_sql_exception: Unknown column 'nama_mahasiswa' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 09:44:44 --> Unknown column 'nama_mahasiswa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_mahasiswa`, `nim_mahasiswa`, `periode_pengajuan`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :nim_mahasiswa:, :periode_pengajuan:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 09:57:04 --> mysqli_sql_exception: Unknown column 'nama_mahasiswa' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 09:57:04 --> Unknown column 'nama_mahasiswa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_mahasiswa`, `nim_mahasiswa`, `periode_pengajuan`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :nim_mahasiswa:, :periode_pengajuan:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 09:57:35 --> Allowed fields must be specified for model: "App\Models\SkripsiModel"
+in SYSTEMPATH\Model.php on line 736.
+ 1 SYSTEMPATH\Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\SkripsiModel')
+ 2 SYSTEMPATH\BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 09:58:07 --> mysqli_sql_exception: Unknown column 'nama_mahasiswa' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 09:58:07 --> Unknown column 'nama_mahasiswa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_mahasiswa`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 09:58:16 --> mysqli_sql_exception: Unknown column 'nama_mahasiswa' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 09:58:16 --> Unknown column 'nama_mahasiswa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_mahasiswa`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 10:05:21 --> mysqli_sql_exception: Unknown column 'nama_mahasiswa' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 10:05:21 --> Unknown column 'nama_mahasiswa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_mahasiswa`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 10:05:26 --> mysqli_sql_exception: Unknown column 'nama_mahasiswa' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 10:05:26 --> Unknown column 'nama_mahasiswa' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`nama_mahasiswa`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 10:50:07 --> mysqli_sql_exception: Column 'periode_pengajuan' cannot be null in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sk...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sk...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sk...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sk...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 10:50:07 --> Column 'periode_pengajuan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `skripsi` (`nama_mahasiswa`, `nim_mahasiswa`, `periode_pengajuan`, `tahun_pengajuan`, `judul_skripsi`, `deskripsi_skripsi`, `konsentrasi_bidang`, `nama_pembimbing`, `nama_dosen_pa`, `status_pengajuan_skripsi`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :nim_mahasiswa:, :periode_pengajuan:, :tahun_pengajuan:, :judul_skripsi:, :deskripsi_skripsi:, :konsentrasi_bidang:, :nama_pembimbing:, :nama_dosen_pa:, :status_pengajuan_skripsi:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 10:50:45 --> mysqli_sql_exception: Column 'periode_pengajuan' cannot be null in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sk...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sk...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sk...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sk...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 D:\programmer\ciempatmonitoring\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\programmer\ciempatmonitoring\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save(Array)
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+#10 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#11 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#14 {main}
+CRITICAL - 2023-10-16 10:50:45 --> Column 'periode_pengajuan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `skripsi` (`nama_mahasiswa`, `nim_mahasiswa`, `periode_pengajuan`, `tahun_pengajuan`, `judul_skripsi`, `deskripsi_skripsi`, `konsentrasi_bidang`, `nama_pembimbing`, `nama_dosen_pa`, `status_pengajuan_skripsi`, `created_at`, `updated_at`) VALUES (:nama_mahasiswa:, :nim_mahasiswa:, :periode_pengajuan:, :tahun_pengajuan:, :judul_skripsi:, :deskripsi_skripsi:, :konsentrasi_bidang:, :nama_pembimbing:, :nama_dosen_pa:, :status_pengajuan_skripsi:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Skripsi.php(38): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_skripsi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 11:57:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'monitoring_maha...', 3306, '', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(24): CodeIgniter\BaseModel->findAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-10-16 11:57:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `skripsi`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Skripsi.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+ERROR - 2023-10-16 11:57:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'monitoring_maha...', 3306, '', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(24): CodeIgniter\BaseModel->findAll()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#9 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\programmer\ciempatmonitoring\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\programmer\ciempatmonitoring\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(24): CodeIgniter\BaseModel->findAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-10-16 11:57:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `skripsi`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Skripsi.php(24): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 12:59:04 --> Undefined variable $semuaSkripsi
+in APPPATH\Views\skripsi\v_skripsi.php on line 124.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $semuaSkripsi', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(26): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 13:14:08 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Views\skripsi\v_skripsi.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-16 13:14:28 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Views\skripsi\v_skripsi.php on line 131.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-16 13:14:43 --> Undefined array key "status_pengajuan"
+in APPPATH\Views\skripsi\v_skripsi.php on line 131.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_pengajuan"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 131)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(26): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:40:07 --> Invalid file: "skripsi/edit_skripsi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('skripsi/edit_skripsi.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/edit_skripsi', [], true)
+ 3 APPPATH\Controllers\Skripsi.php(57): view('skripsi/edit_skripsi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->edit_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:51:33 --> Too few arguments to function App\Controllers\Skripsi::edit_skripsi(), 0 passed in D:\programmer\ciempatmonitoring\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Skripsi.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->edit_skripsi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:52:15 --> Too few arguments to function App\Controllers\Skripsi::edit_skripsi(), 0 passed in D:\programmer\ciempatmonitoring\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Skripsi.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->edit_skripsi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:52:23 --> Too few arguments to function App\Controllers\Skripsi::edit_skripsi(), 0 passed in D:\programmer\ciempatmonitoring\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Skripsi.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->edit_skripsi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:52:50 --> Too few arguments to function App\Controllers\Skripsi::edit_skripsi(), 0 passed in D:\programmer\ciempatmonitoring\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Skripsi.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->edit_skripsi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:52:52 --> Undefined array key "edit_skripsi"
+in APPPATH\Views\skripsi\v_skripsi.php on line 136.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "edit_skripsi"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(23): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:52:56 --> Undefined array key "edit_skripsi"
+in APPPATH\Views\skripsi\v_skripsi.php on line 136.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "edit_skripsi"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(23): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:52:57 --> Undefined array key "edit_skripsi"
+in APPPATH\Views\skripsi\v_skripsi.php on line 136.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "edit_skripsi"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(23): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:53:10 --> Undefined array key "edit_skripsi"
+in APPPATH\Views\skripsi\v_skripsi.php on line 136.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "edit_skripsi"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(23): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+CRITICAL - 2023-10-16 14:53:18 --> Undefined array key "edit_skripsi"
+in APPPATH\Views\skripsi\v_skripsi.php on line 136.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "edit_skripsi"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 136)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(23): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
