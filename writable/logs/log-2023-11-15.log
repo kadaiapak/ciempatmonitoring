@@ -1,0 +1,91 @@
+INFO - 2023-11-15 18:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:11:06 --> CSRF token verified.
+INFO - 2023-11-15 18:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-15 18:11:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1 in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,  FROM...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,  FROM...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,  FROM...')
+#3 D:\programmer\ciempatmonitoring\app\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM...')
+#4 D:\programmer\ciempatmonitoring\app\Controllers\Bimbingan.php(44): App\Models\DosenModel->getAll()
+#5 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Bimbingan->tambah_bimbingan()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bimbingan))
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#10 {main}
+CRITICAL - 2023-11-15 18:11:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM fip_dosen ')
+ 2 APPPATH\Controllers\Bimbingan.php(44): App\Models\DosenModel->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Bimbingan->tambah_bimbingan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bimbingan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-15 18:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-15 18:13:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1 in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,  FROM...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,  FROM...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,  FROM...')
+#3 D:\programmer\ciempatmonitoring\app\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM...')
+#4 D:\programmer\ciempatmonitoring\app\Controllers\Bimbingan.php(44): App\Models\DosenModel->getAll()
+#5 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Bimbingan->tambah_bimbingan()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bimbingan))
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#10 {main}
+CRITICAL - 2023-11-15 18:13:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM fip_dosen ')
+ 2 APPPATH\Controllers\Bimbingan.php(44): App\Models\DosenModel->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Bimbingan->tambah_bimbingan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bimbingan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-15 18:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-15 18:16:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1 in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,  FROM...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,  FROM...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,  FROM...')
+#3 D:\programmer\ciempatmonitoring\app\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM...')
+#4 D:\programmer\ciempatmonitoring\app\Controllers\Bimbingan.php(44): App\Models\DosenModel->getAll()
+#5 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Bimbingan->tambah_bimbingan()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bimbingan))
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#10 {main}
+CRITICAL - 2023-11-15 18:16:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM fip_dosen ')
+ 2 APPPATH\Controllers\Bimbingan.php(44): App\Models\DosenModel->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Bimbingan->tambah_bimbingan()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bimbingan))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-15 18:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 18:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

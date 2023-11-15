@@ -1,0 +1,318 @@
+INFO - 2023-10-28 03:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:43:06 --> CSRF token verified.
+INFO - 2023-10-28 03:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:49 --> CSRF token verified.
+INFO - 2023-10-28 03:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:49:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:40 --> CSRF token verified.
+INFO - 2023-10-28 03:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 03:57:53 --> Call to undefined method App\Models\SkripsiModel::orWherehere
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Skripsi.php(98): CodeIgniter\Model->__call('orWherehere', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 03:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 03:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 03:58:11 --> Undefined array key "status_pengajuan"
+in APPPATH\Views\skripsi\v_semua_skripsi.php on line 52.
+ 1 APPPATH\Views\skripsi\v_semua_skripsi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_pengajuan"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(103): view('skripsi/v_semua_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 04:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 04:04:28 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Views\skripsi\v_semua_skripsi.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-28 04:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 04:06:04 --> Undefined array key "status_pengajuan_skrip"
+in APPPATH\Views\skripsi\v_semua_skripsi.php on line 52.
+ 1 APPPATH\Views\skripsi\v_semua_skripsi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_pengajuan_skrip"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(103): view('skripsi/v_semua_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 04:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 04:06:05 --> Undefined array key "status_pengajuan_skrip"
+in APPPATH\Views\skripsi\v_semua_skripsi.php on line 52.
+ 1 APPPATH\Views\skripsi\v_semua_skripsi.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_pengajuan_skrip"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(103): view('skripsi/v_semua_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 04:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 04:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 04:43:43 --> Undefined variable $dosen
+in APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php on line 72.
+ 1 APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dosen', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php', 72)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_proses_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(117): view('skripsi/v_proses_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->proses_skripsi_oleh_kadep('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 04:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:31:48 --> CSRF token verified.
+INFO - 2023-10-28 05:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 05:31:50 --> Undefined array key "status_pengajuan"
+in APPPATH\Views\skripsi\v_skripsi.php on line 146.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_pengajuan"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 146)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(26): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 05:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 05:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:06 --> CSRF token verified.
+INFO - 2023-10-28 06:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:51 --> CSRF token verified.
+INFO - 2023-10-28 06:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:49 --> CSRF token verified.
+INFO - 2023-10-28 06:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:05:28 --> Invalid file: "skripsi/v_semua_skripsi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('skripsi/v_semua_skripsi.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi', [], true)
+ 3 APPPATH\Controllers\Skripsi.php(103): view('skripsi/v_semua_skripsi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:06:54 --> Invalid file: "skripsi/v_semua_skripsi.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('skripsi/v_semua_skripsi.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi', [], true)
+ 3 APPPATH\Controllers\Skripsi.php(103): view('skripsi/v_semua_skripsi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:27:25 --> Undefined array key "dosen_pa"
+in APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php on line 84.
+ 1 APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dosen_pa"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php', 84)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_proses_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(118): view('skripsi/v_proses_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->proses_skripsi_oleh_kadep('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:29:08 --> Undefined array key "nama_pembimbing"
+in APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php on line 50.
+ 1 APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pembimbing"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(103): view('skripsi/v_semua_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:29:21 --> CSRF token verified.
+INFO - 2023-10-28 06:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:29:23 --> Undefined array key "nama_pembimbing"
+in APPPATH\Views\skripsi\v_skripsi.php on line 143.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pembimbing"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php', 143)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(26): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:32:36 --> Undefined array key "nama_pembimbing"
+in APPPATH\Views\skripsi\v_edit_skripsi.php on line 85.
+ 1 APPPATH\Views\skripsi\v_edit_skripsi.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pembimbing"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_edit_skripsi.php', 85)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_edit_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_edit_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(70): view('skripsi/v_edit_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->edit_skripsi('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:47:35 --> Cannot use object of type stdClass as array
+in APPPATH\Views\skripsi\v_skripsi.php on line 141.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 4 APPPATH\Controllers\Skripsi.php(26): view('skripsi/v_skripsi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-28 06:49:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\skripsi\v_skripsi.php on line 141.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 4 APPPATH\Controllers\Skripsi.php(26): view('skripsi/v_skripsi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-10-28 06:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 06:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 07:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 07:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-28 07:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-28 07:35:18 --> mysqli_sql_exception: Column 'created_at' in field list is ambiguous in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(21): App\Models\SkripsiModel->getAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-10-28 07:35:18 --> Column 'created_at' in field list is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi_id`, `nama_mahasiswa`, `nim_mahasiswa`, `periode_pengajuan`, `tahun_pengajuan`, `judul_skripsi`, `slug_judul`, `deskripsi_skripsi`, `konsentrasi_bidang`, `dosen_pembimbing`, `dosen_pa`, `penguji_satu`, `penguji_dua`, `data_dukung`, `status_pengajuan_skripsi`, `catatan`, `pesan`, `created_at`, `updated_at`, `deleted_at`
+FROM `skripsi`
+JOIN `fip_dosen` ON `fip_dosen`.`nidn` = `skripsi`.`dosen_pembimbing`', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(21): App\Models\SkripsiModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')

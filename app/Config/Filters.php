@@ -2,6 +2,7 @@
 
 namespace Config;
 
+use App\Filters\AuthFilter;
 use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Filters\CSRF;
 use CodeIgniter\Filters\DebugToolbar;
@@ -22,8 +23,9 @@ class Filters extends BaseConfig
         'csrf'          => CSRF::class,
         'toolbar'       => DebugToolbar::class,
         'honeypot'      => Honeypot::class,
-        'invalidchars'  => InvalidChars::class,
+        'invalidchars'  => InvalidChars::class, 
         'secureheaders' => SecureHeaders::class,
+        'authfilter' => \App\Filters\AuthFilter::class,
     ];
 
     /**
@@ -37,6 +39,9 @@ class Filters extends BaseConfig
         'before' => [
             // 'honeypot',
             'csrf',
+            'authfilter' => [
+                'except' => '/auth/*'
+            ]
             // 'invalidchars',
         ],
         'after' => [

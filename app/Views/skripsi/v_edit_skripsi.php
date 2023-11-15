@@ -11,9 +11,11 @@
                     </div>
                     <div class="x_content">
                         <br />
-                        <form class="form-horizontal form-label-left" method="POST" action="<?= base_url('skripsi/simpan_edit_skripsi'); ?>">
+                        <?= validation_list_errors(); ?>
+                        <form class="form-horizontal form-label-left" method="POST" action="<?= base_url('skripsi/simpan_edit_skripsi/'.$single_skripsi['skripsi_id']); ?>">
                         <?= csrf_field(); ?>
-                            <input type="hidden" value="<?= $single_skripsi['skripsi_id']; ?>">
+                            <!-- <input type="hidden" name="_method" value="PUT"> -->
+                            <!-- <input type="hidden" value="< ?= $single_skripsi['skripsi_id']; ?>"> -->
                             <div class="form-group row ">
                                 <label class="control-label col-md-3 col-sm-3" for="nim_mahasiswa">NIM</label>
                                 <div class="col-md-9 col-sm-9 ">
@@ -42,9 +44,9 @@
                                 <label class="control-label col-md-3 col-sm-3" for="periode_pengajuan">Periode Pengajuan</label>
                                 <div class="col-md-9 col-sm-9 ">
                                     <select class="form-control" name="periode_pengajuan">
-                                        <option>Pilih Periode</option>
-                                        <option value="1" <?= ($single_skripsi == '1' ? 'selected' : ''); ?>>Januari - Juni</option>
-                                        <option value="2" <?= ($single_skripsi == '2' ? 'selected' : ''); ?>>Juli - Desember</option>
+                                        <option>--Pilih Periode--</option>
+                                        <option value="1" <?= ($single_skripsi['periode_pengajuan'] == '1' ? 'selected' : ''); ?>>Januari - Juni</option>
+                                        <option value="2" <?= ($single_skripsi['periode_pengajuan'] == '2' ? 'selected' : ''); ?>>Juli - Desember</option>
                                     </select>
                                 </div>
                             </div>
@@ -75,16 +77,26 @@
                                     <textarea class="form-control" rows="3" placeholder="Isikan konsentrasi bidang" name="konsentrasi_bidang" id="konsentrasi_bidang"><?= $single_skripsi['konsentrasi_bidang']; ?></textarea>
                                 </div>
                             </div>
-                            <div class="form-group row ">
-                                <label class="control-label col-md-3 col-sm-3" for="nama_pembimbing">Nama Pembimbing</label>
+                            <div class="form-group row">
+                                <label class="control-label col-md-3 col-sm-3 ">Nama Pembimbing</label>
                                 <div class="col-md-9 col-sm-9 ">
-                                    <input type="text" class="form-control" placeholder="Isikan nama pembimbing" id="nama_pembimbing" name="nama_pembimbing" value="<?= $single_skripsi['nama_mahasiswa']; ?>">
+                                    <select class="select2_single form-control" tabindex="-1" name="dosen_pembimbing">
+                                        <option>--Pilih Dosen Pembimbing--</option>
+                                        <?php foreach($dosen as $d): ?>
+                                        <option value="<?=$d->nidn;?>" <?= ($d->nidn == $single_skripsi['dosen_pembimbing'] ? 'selected' : null) ?> ><?= $d->peg_gel_dep; ?> <?= $d->peg_nama; ?>, <?= $d->peg_gel_bel; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
                                 </div>
                             </div>
-                            <div class="form-group row ">
-                                <label class="control-label col-md-3 col-sm-3" for="nama_dosen_pa">Nama Dosen PA</label>
+                            <div class="form-group row">
+                                <label class="control-label col-md-3 col-sm-3 ">Nama Dosen PA</label>
                                 <div class="col-md-9 col-sm-9 ">
-                                    <input type="text" class="form-control" placeholder="Isikan nama dosen PA" id="nama_dosen_pa" name="nama_dosen_pa">
+                                    <select class="select2_single form-control" tabindex="-1" name="dosen_pa">
+                                        <option>--Pilih Dosen Pembimbing--</option>
+                                        <?php foreach($dosen as $d): ?>
+                                        <option value="<?=$d->nidn;?>" <?= ($d->nidn == $single_skripsi['dosen_pa'] ? 'selected' : null) ?> ><?= $d->peg_gel_dep; ?> <?= $d->peg_nama; ?>, <?= $d->peg_gel_bel; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -93,6 +105,14 @@
                                     <input class="form-control" type="file" id="formFile" name="data_dukung">
                                 </div>
                             </div>
+                            <div class="form-group row">
+                                <label class="control-label col-md-3 col-sm-3" for="formFile"></label>
+                                <div class="col-md-9 col-sm-9 ">
+                                <iframe src="<?= base_url('/upload/data_dukung/'.$single_skripsi['data_dukung']); ?>" title="W3Schools Free Online Web Tutorials"></iframe>
+                                </div>
+                            </div>
+                            
+
                             <div class="ln_solid"></div>
                             <div class="form-group">
                                 <div class="col-md-9 col-sm-9  offset-md-3">

@@ -79,13 +79,15 @@
                             <div class="x_content">
                                 <ul class="nav nav-tabs bar_tabs" id="myTab" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="progress-tab" data-toggle="tab" href="#progress" role="tab" aria-controls="progress" aria-selected="true">Progress</a>
+                                        <a class="nav-link active" id="progress-tab" data-toggle="tab" href="#progress" role="tab" aria-controls="progress" aria-selected="true">Pengajuan Judul</a>
                                     </li>
+                                    <?php if($cekSkripsiDiterima > 0  ) { ?>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                                    </li>
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Bimbingan Skripsi</a>
+                                    </li>   
+                                    <?php } ?>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="skripsi-tab" data-toggle="tab" href="#skripsi" role="tab" aria-controls="skripsi" aria-selected="false">Data Skripsi</a>
+                                        <a class="nav-link" id="skripsi-tab" data-toggle="tab" href="#skripsi" role="tab" aria-controls="skripsi" aria-selected="false">Seminar Proposal</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Seminar Proposal</a>
@@ -99,56 +101,127 @@
                                 </ul>
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="progress" role="tabpanel" aria-labelledby="progress-tab">
-                                        Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher
-                                            synth. Cosby sweater eu banh mi, qui irure terr.
-                                    </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                        Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo
-                                            booth letterpress, commodo enim craft beer mlkshk aliquip
-                                    </div>
-                                    <div class="tab-pane fade" id="skripsi" role="tabpanel" aria-labelledby="skripsi-tab">
-                                        <div class="row">
+                                    <div class="row">
                                             <div class="col-md-12 col-sm-12 ">
                                                 <div class="x_panel">
                                                     <div class="x_title">
-                                                        <a href="<?= base_url('skripsi/tambah_skripsi'); ?>" class="btn btn-success">Ajukan judul <i class="fa fa-plus" style="font-size: 13px;margin-left: 2px;"></i></a>
-                                                        <!-- <h2>Default Example <small>Users</small></h2> -->
-                                                        <ul class="nav navbar-right panel_toolbox">
-                                                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
-                                                            <li><a class="close-link"><i class="fa fa-close"></i></a></li>
-                                                        </ul>
-                                                        <div class="clearfix"></div>
+                                                        <?php if($cekSkripsiDiterima = 0) { ?>
+                                                            <a href="<?= base_url('skripsi/ajukan-judul'); ?>" class="btn btn-success">Ajukan judul <i class="fa fa-plus" style="font-size: 13px;margin-left: 2px;"></i></a>
+                                                        <?php } ?>
                                                     </div>
                                                     <div class="x_content">
                                                         <div class="row">
                                                             <div class="col-sm-12">
                                                                 <div class="card-box table-responsive">
-                                                                    <table id="datatable" class="table table-striped table-bordered" style="width:100%">
+                                                                    <table class="table table-striped table-bordered" style="width:100%">
                                                                         <thead>
                                                                             <tr>
                                                                                 <th>Tanggal</th>
                                                                                 <th>Judul Skripsi</th>
-                                                                                <th>Nama Bimbingan</th>
-                                                                                <th>Nama PA</th>
+                                                                                <th>Dosen Pembimbing</th>
+                                                                                <th>Dosen PA</th>
                                                                                 <th>Catatan</th>
                                                                                 <th>Status</th>
-                                                                                <th>Aksi</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
                                                                             <?php foreach($semua_skripsi as $ss): ?>
                                                                             <tr>
-                                                                                <td><?= $ss['created_at']; ?></td>
+                                                                                <td><?= date('d-m-Y', strtotime($ss['created_at'])) ; ?></td>
                                                                                 <td><?= $ss['judul_skripsi'] ?></td>
-                                                                                <td><?= $ss['nama_pembimbing']; ?></td>
-                                                                                <td><?= $ss['nama_dosen_pa']; ?></td>
+                                                                                <td><?= $ss['d_pembimbing_peg_gel_dep']; ?> <?= $ss['d_pembimbing_peg_nama']; ?> <?= $ss['d_pembimbing_peg_gel_bel']; ?></td>
+                                                                                <td><?= $ss['d_pa_peg_gel_dep']; ?> <?= $ss['d_pa_peg_nama']; ?> <?= $ss['d_pa_peg_gel_bel']; ?></td>
                                                                                 <td>Ini catatan dibuat sendiri</td>
-                                                                                <td><?= ($ss['status_pengajuan_skripsi'] == 1 ? "<span class='badge badge-warning'>Proses</span>" : ($ss['status_pengajuan'] == 2 ? "<span class='badge badge-danger'>Judul ditolak</span>" : null)); ?></td>
-                                                                                <td>
-                                                                                    <!-- <form action="< ?= base_url('skripsi/delete_skripsi/'.$ss['skripsi_id']); ?>"></form> -->
-                                                                                    <button type="button" class="btn btn-success">Proses</button>
-                                                                                    <a href="<?= base_url('skripsi/edit_skripsi/'.$ss['skripsi_id']); ?>" class="btn btn-warning">Edit</a>
-                                                                                </td>
+                                                                                <td><?= ($ss['status_pengajuan_skripsi'] == 1 ? "<span class='badge badge-warning'>Menunggu diproses</span>" : ($ss['status_pengajuan_skripsi'] == 2 ? "<span class='badge badge-danger'>Judul ditolak</span>" : ($ss['status_pengajuan_skripsi'] == 3 ? "<span class='badge badge-success'>Judul diterima</span>" : null))); ?></td>
+                                                                            </tr>
+                                                                            <?php endforeach; ?>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row">
+                                            <div class="col-md-12 col-sm-12 ">
+                                                <div class="x_panel">
+                                                    <div class="x_title">
+
+                                                        <a href="<?= base_url('skripsi/tambah-bimbingan'); ?>" class="btn btn-success">Bimbingan <i class="fa fa-plus" style="font-size: 13px;margin-left: 2px;"></i></a>
+                                                    </div>
+                                                    <div class="x_content">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="card-box table-responsive">
+                                                                    <table class="table table-striped table-bordered" style="width:100%">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Tanggal</th>
+                                                                                <th>Subjek</th>
+                                                                                <th>Isi</th>
+                                                                                <th>Data Dukung</th>
+                                                                                <th>Status</th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <?php foreach($semua_bimbingan as $sb): ?>
+                                                                            <tr>
+                                                                                <td><?= date('d-m-Y', strtotime($sb['created_at'])) ; ?></td>
+                                                                                <td><?= $sb['bb_subjek'] ?></td>
+                                                                                <td><?= $sb['bb_isi']; ?></td>
+                                                                                <td><?= $sb['data_dukung']; ?></td>
+                                                                                <td><?= ($sb['is_verifikasi'] == 1 ? "<span class='badge badge-warning'>Sudah diverifikasi</span>" : ($ss['status_pengajuan_skripsi'] == 0 ? "<span class='badge badge-danger'>Belum diverifikasi</span>" : null)); ?></td>
+                                                                            </tr>
+                                                                            <?php endforeach; ?>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="skripsi" role="tabpanel" aria-labelledby="skripsi-tab">
+                                        
+                                        <?php if($cekSkripsiDiterima > 0) { ?>
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12 ">
+                                                <div class="x_panel">
+                                                    <div class="x_title">
+                                                        <a href="<?= base_url('skripsi/upload-skripsi'); ?>" class="btn btn-success">Upload Skripsi <i class="fa fa-plus" style="font-size: 13px;margin-left: 2px;"></i></a>
+                                                    </div>
+                                                    <div class="x_content">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="card-box table-responsive">
+                                                                    <table class="table table-striped table-bordered" style="width:100%">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th>Tanggal</th>
+                                                                                <th>Judul Skripsi</th>
+                                                                                <th>Dosen Pembimbing</th>
+                                                                                <th>Dosen PA</th>
+                                                                                <th>Catatan</th>
+                                                                                <th>Status</th>
+                                                                                </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <?php foreach($judul_diterima as $jd): ?>
+                                                                            <tr>
+                                                                                <td><?= date('d-m-Y', strtotime($jd['created_at'])) ; ?></td>
+                                                                                <td><?= $jd['judul_skripsi'] ?></td>
+                                                                                <td><?= $jd['d_pembimbing_peg_gel_dep']; ?> <?= $jd['d_pembimbing_peg_nama']; ?> <?= $jd['d_pembimbing_peg_gel_bel']; ?></td>
+                                                                                <td><?= $jd['d_pa_peg_gel_dep']; ?> <?= $jd['d_pa_peg_nama']; ?> <?= $jd['d_pa_peg_gel_bel']; ?></td>
+                                                                                <td>Ini catatan dibuat sendiri</td>
+                                                                                <td><?= ($jd['status_pengajuan_skripsi'] == 1 ? "<span class='badge badge-warning'>Menunggu diproses</span>" : ($jd['status_pengajuan_skripsi'] == 2 ? "<span class='badge badge-danger'>Judul ditolak</span>" : ($jd['status_pengajuan_skripsi'] == 3 ? "<span class='badge badge-success'>Judul diterima</span>" : null))); ?></td>
+                                                                               
                                                                             </tr>
                                                                             <?php endforeach; ?>
                                                                            
@@ -161,6 +234,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <?php } ?>
                                     </div>
                                 </div>
                             </div>

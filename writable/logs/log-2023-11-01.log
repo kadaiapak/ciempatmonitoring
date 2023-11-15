@@ -1,0 +1,296 @@
+INFO - 2023-11-01 02:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:24:27 --> CSRF token verified.
+ERROR - 2023-11-01 02:24:31 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'monitoring_maha...', 3306, '', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\AuthModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Auth.php(36): App\Models\AuthModel->login('kadep', 'kadep')
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Auth->loginProcess()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\programmer\ciempatmonitoring\app\Models\AuthModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\programmer\ciempatmonitoring\app\Controllers\Auth.php(36): App\Models\AuthModel->login('kadep', 'kadep')
+#5 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Auth->loginProcess()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#10 {main}
+CRITICAL - 2023-11-01 02:24:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(36): App\Models\AuthModel->login('kadep', 'kadep')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->loginProcess()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:24:56 --> CSRF token verified.
+INFO - 2023-11-01 02:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-01 02:25:00 --> Undefined array key "nama_pembimbing"
+in APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php on line 50.
+ 1 APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pembimbing"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(104): view('skripsi/v_semua_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-01 02:25:10 --> Undefined array key "nama_pembimbing"
+in APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php on line 50.
+ 1 APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pembimbing"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(104): view('skripsi/v_semua_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-01 02:26:31 --> Undefined array key "nama_pembimbing"
+in APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php on line 50.
+ 1 APPPATH\Views\skripsi\v_semua_skripsi_oleh_kadep.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pembimbing"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_semua_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_semua_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(104): view('skripsi/v_semua_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-01 02:38:22 --> mysqli_sql_exception: Unknown column 'fip_dosen.peg_nidn' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-01 02:38:22 --> Unknown column 'fip_dosen.peg_nidn' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen`.`peg_nidn` as `d_pembimbing_peg_nip`, `fip_dosen`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen`.`peg_nama` as `d_pembimbing_peg_nama`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-01 02:38:40 --> mysqli_sql_exception: Unknown column 'fip_dosen.nidn' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-01 02:38:40 --> Unknown column 'fip_dosen.nidn' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen`.`nidn` as `d_pembimbing_nidn`, `fip_dosen`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen`.`peg_nama` as `d_pembimbing_peg_nama`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-01 02:39:10 --> mysqli_sql_exception: Unknown column 'fip_dosen.nidn' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-01 02:39:10 --> Unknown column 'fip_dosen.nidn' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen`.`nidn` as `d_pembimbing_nidn`, `fip_dosen`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen`.`peg_nama` as `d_pembimbing_peg_nama`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-01 02:39:26 --> mysqli_sql_exception: Unknown column 'fip_dosen.peg_gel_dep' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-01 02:39:26 --> Unknown column 'fip_dosen.peg_gel_dep' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen`.`peg_nama` as `d_pembimbing_peg_nama`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-01 02:39:41 --> mysqli_sql_exception: Unknown column '_pembimbing.peg_nama' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-01 02:39:41 --> Unknown column '_pembimbing.peg_nama' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `_pembimbing`.`peg_nama` as `d_pembimbing_peg_nama`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-01 02:41:37 --> mysqli_sql_exception: Unknown column 'fip_dosen_pembimbing.peg_nama as d_pembimbing_peg_nama fip_dosen_pa.nidn' in 'field list' in D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoring\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoring\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoring\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoring\app\Models\SkripsiModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoring\app\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+#6 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+#7 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoring\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoring\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoring\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-01 02:41:37 --> Unknown column 'fip_dosen_pembimbing.peg_nama as d_pembimbing_peg_nama fip_dosen_pa.nidn' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.*, `fip_dosen_pembimbing`.`nidn` as `d_pembimbing_nidn`, `fip_dosen_pembimbing`.`peg_gel_dep` as `d_pembimbing_peg_gel_dep`, `fip_dosen_pembimbing`.`peg_nama as d_pembimbing_peg_nama fip_dosen_pa`.`nidn` as `d_pa_nidn`, `fip_dosen_pa`.`peg_gel_dep` as `d_pa_peg_gel_dep`
+FROM `skripsi`
+JOIN `fip_dosen` as `fip_dosen_pembimbing` ON `fip_dosen_pembimbing`.`nidn` = `skripsi`.`dosen_pembimbing`
+JOIN `fip_dosen` as `fip_dosen_pa` ON `fip_dosen_pa`.`nidn` = `skripsi`.`dosen_pa`', [], false)
+ 2 APPPATH\Models\SkripsiModel.php(34): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(100): App\Models\SkripsiModel->getAll()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->semua_skripsi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 02:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:48:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 02:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-01 02:53:24 --> Undefined array key "dosen_penguji_satu"
+in APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php on line 95.
+ 1 APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dosen_penguji_satu"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_proses_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(119): view('skripsi/v_proses_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->proses_skripsi_oleh_kadep('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
+INFO - 2023-11-01 03:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 03:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 03:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-01 03:26:46 --> Undefined array key "dosen_penguji_satu"
+in APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php on line 95.
+ 1 APPPATH\Views\skripsi\v_proses_skripsi_oleh_kadep.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "dosen_penguji_satu"', 'D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoring\\app\\Views\\skripsi\\v_proses_skripsi_oleh_kadep.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_proses_skripsi_oleh_kadep', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(119): view('skripsi/v_proses_skripsi_oleh_kadep', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->proses_skripsi_oleh_kadep('15')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoring\\public\\index.php')
