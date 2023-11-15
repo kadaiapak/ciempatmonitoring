@@ -48,6 +48,13 @@ class SkripsiModel extends Model
         return $query->getResultArray(); 
     }
 
+    // used by Skripsi -> simpan_judul();
+    public function simpanSkripsi($data)
+    {
+        $builder = $this->db->table('skripsi');
+        $builder->set('skripsi_uuid','UUID()', FALSE);
+        $builder->insert($data);
+    }
     public function getJudulDiterima($nim = null)
     {   
         $builder = $this->db->table('skripsi');
@@ -59,16 +66,43 @@ class SkripsiModel extends Model
         if($nim) {
             $builder->where('nim_mahasiswa', $nim);
         }
-        $builder->where('status_pengajuan_skripsi', '4');
+        $builder->where('status_pengajuan_skripsi', '3');
         $query = $builder->get();
         return $query->getResultArray(); 
     }
-    public function cekSkripsiDiterima()
+
+    public function getIdSkripsiUntukBimbingan($nim = null)
+    {
+        $builder = $this->db->table('skripsi');
+        $builder->select('skripsi.skripsi_id as skripsi_id');
+        $builder->where('nim_mahasiswa', $nim);
+        $builder->where('status_pengajuan_skripsi', '3');
+        $query = $builder->get();
+        return $query->getRow();
+     
+    }
+
+    // used by Skripsi -> index();
+    public function cekBisaTambahSkripsi()
     {
         $nim  = session()->get('nim');
         $builder = $this->db->table('skripsi');
         $builder->where('nim_mahasiswa', $nim);
-        $builder->where('status_pengajuan_skripsi', 3);
+        $builder->groupStart();
+        $builder->where('status_pengajuan_skripsi', '1');
+        $builder->orWhere('status_pengajuan_skripsi', '3');
+        $builder->groupEnd();
+        $query = $builder->get();
+        return $query->getNumRows();
+    }
+
+    // used by Skripsi -> index();
+    public function cekBisaBimbingan()
+    {
+        $nim  = session()->get('nim');
+        $builder = $this->db->table('skripsi');
+        $builder->where('nim_mahasiswa', $nim);
+        $builder->where('status_pengajuan_skripsi', '3');
         $query = $builder->get();
         return $query->getNumRows();
     }

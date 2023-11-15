@@ -81,31 +81,38 @@
                                     <li class="nav-item">
                                         <a class="nav-link active" id="progress-tab" data-toggle="tab" href="#progress" role="tab" aria-controls="progress" aria-selected="true">Pengajuan Judul</a>
                                     </li>
-                                    <?php if($cekSkripsiDiterima > 0  ) { ?>
+                                    <?php if($cekBisaBimbingan > 0  ) { ?>
                                     <li class="nav-item">
                                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Bimbingan Skripsi</a>
                                     </li>   
                                     <?php } ?>
+                                    <?php if($cekBisaTambahSkripsi == 0  ) { ?>
+
                                     <li class="nav-item">
                                         <a class="nav-link" id="skripsi-tab" data-toggle="tab" href="#skripsi" role="tab" aria-controls="skripsi" aria-selected="false">Seminar Proposal</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Seminar Proposal</a>
-                                    </li>
+                                    <?php } ?>
+                                    <?php if($cekBisaTambahSkripsi == 0  ) { ?>
+
                                     <li class="nav-item">
                                         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Ujian Skripsi</a>
                                     </li>
+                                    <?php } ?>
+                                    <?php if($cekBisaTambahSkripsi == 0  ) { ?>
+
                                     <li class="nav-item">
                                         <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Finalisasi</a>
                                     </li>
+                                    <?php } ?>
+
                                 </ul>
                                 <div class="tab-content" id="myTabContent">
                                     <div class="tab-pane fade show active" id="progress" role="tabpanel" aria-labelledby="progress-tab">
-                                    <div class="row">
+                                        <div class="row">
                                             <div class="col-md-12 col-sm-12 ">
                                                 <div class="x_panel">
                                                     <div class="x_title">
-                                                        <?php if($cekSkripsiDiterima = 0) { ?>
+                                                        <?php if($cekBisaTambahSkripsi == 0) { ?>
                                                             <a href="<?= base_url('skripsi/ajukan-judul'); ?>" class="btn btn-success">Ajukan judul <i class="fa fa-plus" style="font-size: 13px;margin-left: 2px;"></i></a>
                                                         <?php } ?>
                                                     </div>
@@ -145,13 +152,15 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <!-- tab untuk tambah bimbingan -->
                                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <div class="row">
+                                        <div class="row">
                                             <div class="col-md-12 col-sm-12 ">
                                                 <div class="x_panel">
                                                     <div class="x_title">
-
-                                                        <a href="<?= base_url('skripsi/tambah-bimbingan'); ?>" class="btn btn-success">Bimbingan <i class="fa fa-plus" style="font-size: 13px;margin-left: 2px;"></i></a>
+                                                    <?php if($cekBisaBimbingan > 0  ) { ?>
+                                                        <a href="<?= base_url("skripsi/".$idBimbingan."/tambah-bimbingan"); ?>" class="btn btn-success">Bimbingan <i class="fa fa-plus" style="font-size: 13px;margin-left: 2px;"></i></a>
+                                                    <?php } ?>
                                                     </div>
                                                     <div class="x_content">
                                                         <div class="row">
@@ -187,10 +196,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
+                                    <!-- akhir dari tab untuk tambah bimbingan -->
                                     <div class="tab-pane fade" id="skripsi" role="tabpanel" aria-labelledby="skripsi-tab">
                                         
-                                        <?php if($cekSkripsiDiterima > 0) { ?>
+                                        <?php if($cekBisaTambahSkripsi == 0) { ?>
                                         <div class="row">
                                             <div class="col-md-12 col-sm-12 ">
                                                 <div class="x_panel">

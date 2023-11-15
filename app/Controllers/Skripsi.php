@@ -29,14 +29,27 @@ class Skripsi extends BaseController
         $nim = session()->get('nim');
         $semuaSkripsi = $this->skripsiModel->getAll($nim);
         $semuaBimbingan = $this->bimbinganModel->getAll($nim);
-        $cekSkripsiDiterima = $this->skripsiModel->cekSkripsiDiterima();
+        $cekBisaTambahSkripsi = $this->skripsiModel->cekBisaTambahSkripsi();
+        $cekBisaBimbingan = $this->skripsiModel->cekBisaBimbingan();
         $judulDiterima = $this->skripsiModel->getJudulDiterima($nim);
+
+        // cek idSkripsi untuk melaukan bimbingan
+        $idBimbingan = $this->skripsiModel->getIdSkripsiUntukBimbingan($nim);
+        if($idBimbingan != null) {
+            $idBimbinganTest = $idBimbingan->skripsi_id; 
+        }else {
+            $idBimbinganTest = false;
+        }
+        // akhir dari cek idSkripsi
+
         $data = [
             'judul' => 'Skripsi',
             'semua_skripsi' => $semuaSkripsi,
             'semua_bimbingan' => $semuaBimbingan,
             'judul_diterima' => $judulDiterima,
-            'cekSkripsiDiterima' => $cekSkripsiDiterima
+            'cekBisaTambahSkripsi' => $cekBisaTambahSkripsi,
+            'cekBisaBimbingan' => $cekBisaBimbingan,
+            'idBimbingan' => $idBimbinganTest,
         ];
         return view('skripsi/v_skripsi', $data);
     }
@@ -112,7 +125,7 @@ class Skripsi extends BaseController
         echo "Nama file: ".$data_dukung->getName();
         $data_dukung->move('./upload/data_dukung');
         $nama_data_dukung = $data_dukung->getName();
-        $this->skripsiModel->save([
+        $data = array(
             'nama_mahasiswa' => $this->request->getVar('nama_mahasiswa'),
             'nim_mahasiswa' => $this->request->getVar('nim_mahasiswa'),
             'periode_pengajuan' => $this->request->getVar('periode_pengajuan'),
@@ -124,7 +137,8 @@ class Skripsi extends BaseController
             'dosen_pa' => $this->request->getVar('nama_dosen_pa'),
             'data_dukung' => $nama_data_dukung,
             'status_pengajuan_skripsi' => 1,
-        ]);
+        );
+        $this->skripsiModel->simpanSkripsi($data);
         $skripsi_id = $this->skripsiModel->getInsertID();
         $this->historiModel->save([
             'histori_skripsi_id' => $skripsi_id,

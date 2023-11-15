@@ -40,9 +40,9 @@ class DosenModel extends Model
     public function getAll()
     {
 
-        $sql = 'SELECT *,  FROM fip_dosen ';
-        $dosen = $this->db->query($sql);
-        dd($dosen->getResult());
+        // $sql = 'SELECT *,  FROM fip_dosen ';
+        // $dosen = $this->db->query($sql);
+        // dd($dosen->getResult());
 
         return $this->db->table('fip_dosen')
         ->orderBy('peg_nama','ASC')->get()->getResult();

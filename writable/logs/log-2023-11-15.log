@@ -89,3 +89,1005 @@ INFO - 2023-11-15 18:27:48 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-11-15 18:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-11-15 18:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-11-15 18:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 19:51:12 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 75.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 19:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 19:54:17 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\skripsi\v_skripsi.php on line 154.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 4 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 19:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 19:57:09 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 19:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 19:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 19:57:36 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:02:10 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:02:16 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:02:26 --> Undefined property: stdClass::$id_skripsi
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Models\SkripsiModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_skripsi', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Models\\SkripsiModel.php', 76)
+ 2 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:03:04 --> Attempt to read property "skripsi_id" on string
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Models\SkripsiModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "skripsi_id" on string', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Models\\SkripsiModel.php', 76)
+ 2 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:03:29 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:03:44 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:03:45 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:03:46 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:03:52 --> Object of class stdClass could not be converted to string
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:04:15 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:04:23 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:04:23 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:07:56 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:09:03 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:09:05 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:09:06 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:10:21 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:10:42 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:10:43 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:10:46 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:11:01 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:12:12 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:12:13 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:12:55 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:12:57 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-15 20:13:28 --> mysqli_sql_exception: Unknown column 'skripsi.id_skripsi' in 'field list' in D:\programmer\ciempatmonitoringdenganuuid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoringdenganuuid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `skripsi...', 0)
+#1 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `skripsi...')
+#2 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `skripsi...')
+#3 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi...', Array, false)
+#4 D:\programmer\ciempatmonitoringdenganuuid\app\Models\SkripsiModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoringdenganuuid\app\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+#6 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#7 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoringdenganuuid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoringdenganuuid\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-15 20:13:28 --> Unknown column 'skripsi.id_skripsi' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `skripsi`.`id_skripsi`
+FROM `skripsi`
+WHERE `nim_mahasiswa` = :nim_mahasiswa:', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(72): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:15:39 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:16:09 --> Undefined array key 0
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Models\SkripsiModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Models\\SkripsiModel.php', 76)
+ 2 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:16:22 --> Attempt to read property "skripsi_id" on array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Models\SkripsiModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "skripsi_id" on array', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Models\\SkripsiModel.php', 76)
+ 2 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:16:31 --> Undefined constant "App\Models\skripsi_id"
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:17:10 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:20:00 --> Undefined array key 0
+in APPPATH\Models\SkripsiModel.php on line 75.
+ 1 APPPATH\Models\SkripsiModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Models\\SkripsiModel.php', 75)
+ 2 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:20:01 --> Undefined array key 0
+in APPPATH\Models\SkripsiModel.php on line 75.
+ 1 APPPATH\Models\SkripsiModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Models\\SkripsiModel.php', 75)
+ 2 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:21:06 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:21:39 --> Attempt to read property "skripsi_id" on string
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Models\SkripsiModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "skripsi_id" on string', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Models\\SkripsiModel.php', 76)
+ 2 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:23:32 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:26:03 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:26:35 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:26:36 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:26:36 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:29:44 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:46:05 --> Cannot use object of type stdClass as array
+in APPPATH\Models\SkripsiModel.php on line 76.
+ 1 APPPATH\Controllers\Skripsi.php(34): App\Models\SkripsiModel->getIdSkripsiUntukBimbingan('22321928')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:46:46 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:46:47 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:53:36 --> Array to string conversion
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 APPPATH\Controllers\Skripsi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Controllers\\Skripsi.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:53:45 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:55:09 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:55:09 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:55:10 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:55:10 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:55:25 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:55:34 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\skripsi\v_skripsi.php on line 154.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 4 APPPATH\Controllers\Skripsi.php(44): view('skripsi/v_skripsi', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:56:11 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(44): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:57:21 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(43): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:58:23 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(45): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:58:24 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(45): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 20:58:25 --> CodeIgniter\HTTP\SiteURI::stringifyRelativePath(): Return value must be of type string, null returned
+in SYSTEMPATH\HTTP\SiteURI.php on line 401.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(375): CodeIgniter\HTTP\SiteURI->stringifyRelativePath(null)
+ 2 SYSTEMPATH\Helpers\url_helper.php(54): CodeIgniter\HTTP\SiteURI->baseUrl(null, null)
+ 3 APPPATH\Views\skripsi\v_skripsi.php(154): base_url(null)
+ 4 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 7 APPPATH\Controllers\Skripsi.php(45): view('skripsi/v_skripsi', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 20:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 20:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:01:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 21:17:38 --> Attempt to read property "skripsi_id" on null
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 APPPATH\Controllers\Skripsi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "skripsi_id" on null', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Controllers\\Skripsi.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 21:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 21:18:53 --> Attempt to read property "skripsi_id" on null
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 APPPATH\Controllers\Skripsi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "skripsi_id" on null', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Controllers\\Skripsi.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 21:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 21:21:44 --> Attempt to read property "skripsi_id" on null
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 APPPATH\Controllers\Skripsi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "skripsi_id" on null', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Controllers\\Skripsi.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 21:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 21:21:46 --> Attempt to read property "skripsi_id" on null
+in APPPATH\Controllers\Skripsi.php on line 35.
+ 1 APPPATH\Controllers\Skripsi.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "skripsi_id" on null', 'D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Controllers\\Skripsi.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 21:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-15 21:27:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1 in D:\programmer\ciempatmonitoringdenganuuid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoringdenganuuid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *,  FROM...', 0)
+#1 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *,  FROM...')
+#2 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *,  FROM...')
+#3 D:\programmer\ciempatmonitoringdenganuuid\app\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM...')
+#4 D:\programmer\ciempatmonitoringdenganuuid\app\Controllers\Skripsi.php(61): App\Models\DosenModel->getAll()
+#5 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(919): App\Controllers\Skripsi->ajukan_judul()
+#6 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#7 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\programmer\ciempatmonitoringdenganuuid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\programmer\ciempatmonitoringdenganuuid\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#10 {main}
+CRITICAL - 2023-11-15 21:27:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM fip_dosen' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\DosenModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT *,  FROM fip_dosen ')
+ 2 APPPATH\Controllers\Skripsi.php(61): App\Models\DosenModel->getAll()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->ajukan_judul()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 21:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:29:37 --> CSRF token verified.
+INFO - 2023-11-15 21:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:30:23 --> CSRF token verified.
+INFO - 2023-11-15 21:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-15 21:53:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5 in D:\programmer\ciempatmonitoringdenganuuid\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\programmer\ciempatmonitoringdenganuuid\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\programmer\ciempatmonitoringdenganuuid\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\programmer\ciempatmonitoringdenganuuid\app\Models\SkripsiModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\programmer\ciempatmonitoringdenganuuid\app\Controllers\Skripsi.php(33): App\Models\SkripsiModel->cekBisaBimbingan()
+#6 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+#7 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+#8 D:\programmer\ciempatmonitoringdenganuuid\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\programmer\ciempatmonitoringdenganuuid\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\programmer\ciempatmonitoringdenganuuid\system\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\c...')
+#11 {main}
+CRITICAL - 2023-11-15 21:53:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `skripsi`
+WHERE `nim_mahasiswa` = :nim_mahasiswa:
+AND `status_pengajuan_skripsi` = :status_pengajuan_skripsi:
+)', [...], false)
+ 2 APPPATH\Models\SkripsiModel.php(120): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Skripsi.php(33): App\Models\SkripsiModel->cekBisaBimbingan()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 21:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:55:40 --> CSRF token verified.
+INFO - 2023-11-15 21:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-15 21:55:40 --> Call to a member function getVar() on null
+in APPPATH\Models\SkripsiModel.php on line 55.
+ 1 APPPATH\Controllers\Skripsi.php(128): App\Models\SkripsiModel->simpanSkripsi('(final) hasil pendaftaran asrama.pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->simpan_judul()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
+INFO - 2023-11-15 21:58:43 --> CSRF token verified.
+INFO - 2023-11-15 21:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:58:58 --> CSRF token verified.
+INFO - 2023-11-15 21:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-15 21:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-15 21:58:58 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\skripsi\v_skripsi.php on line 137.
+ 1 APPPATH\Views\skripsi\v_skripsi.php(137): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\programmer\\ciempatmonitoringdenganuuid\\app\\Views\\skripsi\\v_skripsi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('skripsi/v_skripsi', [], true)
+ 5 APPPATH\Controllers\Skripsi.php(54): view('skripsi/v_skripsi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Skripsi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skripsi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\programmer\\ciempatmonitoringdenganuuid\\public\\index.php')
